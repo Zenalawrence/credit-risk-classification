@@ -27,7 +27,7 @@ The purpose of the model was to determine whether a loan is classified as health
 
 ## Results
 
-![confusion_matrix summary report.](xxx)
+![confusion_matrix summary report.](https://github.com/Zenalawrence/credit-risk-classification/blob/main/Credit_Risk/Readme_images/confusion_matrix_summary.png)
 
 The performance of the logistic regression model was tested and stored in the classification report above.
 
@@ -47,12 +47,12 @@ The performance of the logistic regression model was tested and stored in the cl
 
 ## Summary
 
-The model is good at  predicting healthy loans(class 0) with 100% accuracy but is not as strong at predicting high-risk loans as it has 84% accuracy prediction.  Improvements can be made using a more balanced dataset.  The two classes are currently imbalanced as healthy loans had 18765 dataset compard to the 619 dataset for high-risk loans.  Techniques like Random Over Sampling (RO), Random Under Sampling(RU), or synthetic data generation (SMOTE) can help improve performance on the minority class [^1].  The predictions may also be improved by tuning the hyperparametes for better overall performance for both classes.
+The model is good at  predicting healthy loans(class 0) with 100% accuracy but is not as strong at predicting high-risk loans as it has 84% accuracy prediction.  Improvements can be made using a more balanced dataset.  The two classes are currently imbalanced as healthy loans had 18765 dataset compard to the 619 dataset for high-risk loans.  Techniques like Random Over Sampling (RO), Random Under Sampling(RU), or synthetic data generation (SMOTE) can help improve performance on the minority class [1].  The predictions may also be improved by tuning the hyperparametes for better overall performance for both classes.
 
 
 ## References
 
 | Reference Number | link |
 |----------------|-------------|
-| [^1]: Imbalanced Data Techniques | https://www.turintech.ai/what-is-imbalanced-data-and-how-to-handle-it/ |
+| [1]: Imbalanced Data Techniques | https://www.turintech.ai/what-is-imbalanced-data-and-how-to-handle-it/ |
 
